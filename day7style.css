@@ -1,0 +1,40 @@
+/*Universal selector*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Type selector*/
+
+.myDiv1{
+    height: 50px;
+    width: 50px;
+    background-color: hotpink;
+    }
+.myDiv2{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.myDiv3{
+    height: 50px;
+    width: 50px;
+    background-color: hotpink;
+}
+.myDiv4{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+/*ID selector*/ /*uses the pound sign- # */
+#topHeader {
+    color: white;
+}
+
+/*Class Selector*/ /*Uses the dot symbol- . */
+.topPara {
+    color: white;
+    /*measurements - px, % */
+    font-size: 40px; /* % the space of the container that it`s in*/
+}
